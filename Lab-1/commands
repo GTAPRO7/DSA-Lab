@@ -1,0 +1,15 @@
+##To run the program, Run in VS Code Terminal
+
+gcc -g lab1.c -o lab1 
+
+./lab1
+
+##Memory Leakage - Type the below one by one in cmd
+
+wsl -d Ubuntu
+
+cd "/mnt/c/Users/gokul/OneDrive/Desktop/MCA/SEM 2/DSA/LAB/Lab-1"
+
+gcc -g lab1.c -o lab1 
+
+valgrind --leak-check=full ./lab1
